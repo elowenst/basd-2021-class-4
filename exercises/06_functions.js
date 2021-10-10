@@ -1,10 +1,11 @@
 // Funciones
+
 //item a
 function sumA(number1, number2){
     return number1 + number2;
 }
 sum_A = sumA(10,15);
-console.log(sum_A);
+//console.log(sum_A);
 
 //item b
 function sumB(number3, number4){
@@ -16,7 +17,7 @@ function sumB(number3, number4){
     }
 }
 sum_B = sumB("s", 15);
-console.log(sum_B);
+//console.log(sum_B);
 
 //item c
 function validate_integer(number5){
@@ -26,7 +27,7 @@ function validate_integer(number5){
         return false;
     }
 }
-console.log(validate_integer(4));
+//console.log(validate_integer(4));
 
 //item d
 function sumD(number6, number7){
@@ -45,7 +46,7 @@ function sumD(number6, number7){
         return NaN;
     }   
 }
-console.log(sumD("1.2", 4));
+//console.log(sumD("1.2", 4));
 
 //item e
 function validate_number(num3, num4){
@@ -63,4 +64,4 @@ function sumE (num5, num6){
         return NaN;
     }
 }
-console.log(sumE(2, 7));
+//console.log(sumE(2, 7));
